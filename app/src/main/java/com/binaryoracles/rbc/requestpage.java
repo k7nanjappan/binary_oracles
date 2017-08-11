@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.ArrayAdapter;
 
@@ -27,7 +26,7 @@ public class requestpage extends AppCompatActivity {
         adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner2.setAdapter(adapter2);
 
-        ImageButton ques = (ImageButton) findViewById(R.id.request);
+        ImageButton ques = (ImageButton) findViewById(R.id.ques);
         final Context context = this;
         ques.setOnClickListener(new View.OnClickListener() {
             @Override
