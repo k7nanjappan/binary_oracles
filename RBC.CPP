@@ -203,16 +203,16 @@ void main()
 	  for(i=0;i<80;i++)
 	  cout<<"-";
 	  cout<<"\n\n Thank you for joining RBC as a Donor";
-	  delay(300);
+	  delay(1000);
 	  cout<<"\n\n Your interest in blood donation is highly appreciated";
-	  delay(300);
+	  delay(1000);
 	  cout<<"\n\n When someone requires blood you will be notified";
-	  delay(300);
+	  delay(1000);
 	  cout<<"\n\n ** Press Enter to Continue **";
 	  getch();
-	  break;
-  case 3: exit(0);
-	  break;
+	  goto main;
+  case 3:  exit(0);
+	   break;
   default: clrscr();
 	   cout<<endl;
 	   for(i=0;i<80;i++)
@@ -225,4 +225,5 @@ void main()
 	   goto main;
 
  };
+ exit(0);
 }
