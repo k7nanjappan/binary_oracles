@@ -23,9 +23,9 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:text="Button"
+        android:layout_width="194dp"
+        android:layout_height="46dp"
+        android:text="Become a Donor"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="28dp"
