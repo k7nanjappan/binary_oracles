@@ -13,9 +13,9 @@ public class startview extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startview);
 
-        Button request;
-        request = (Button) findViewById(R.id.request);
-        request.setOnClickListener(new View.OnClickListener(){
+        Button donate;
+        donate = (Button) findViewById(R.id.button2);
+        donate.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View view) {
@@ -23,6 +23,15 @@ public class startview extends AppCompatActivity {
                 startActivity(intent);
             }
 
+        });
+
+        Button request;
+        request.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(){
+                Intent myIntent = new Intent(this, requestpage.class);
+                        startActivity(Intent);
+            }
         });
 
 
