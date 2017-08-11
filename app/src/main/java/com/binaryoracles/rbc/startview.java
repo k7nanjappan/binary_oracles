@@ -13,7 +13,8 @@ public class startview extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startview);
 
-        Button request = (Button) findViewById(R.id.request);
+        Button request;
+        request = (Button) findViewById(R.id.request);
         request.setOnClickListener(new View.OnClickListener(){
 
             @Override
