@@ -2,8 +2,3 @@
 #include<conio.h>
 #include<stdio.h>
 #include<dos.h>
-void main()
-{
- clrscr();
- getch();
-}
