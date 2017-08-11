@@ -1,9 +1,11 @@
 package com.binaryoracles.rbc;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.ArrayAdapter;
@@ -24,6 +26,18 @@ public class requestpage extends AppCompatActivity {
         ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,R.array.urgency, android.R.layout.simple_spinner_dropdown_item);
         adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner2.setAdapter(adapter2);
+
+        ImageButton ques = (ImageButton) findViewById(R.id.request);
+        final Context context = this;
+        ques.setOnClickListener(new View.OnClickListener() {
+            @Override
+                  public void onClick(View v) {
+                Intent intent = new Intent(context, eminfo.class);
+                startActivity(intent);
+            }
+
+
+        });
 
     }
 }
