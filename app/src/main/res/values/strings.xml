@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">RBC</string>
+    <string-array name="bgroup">
+        <item>O +ve</item>
+        <item>O -ve</item>
+        <item>A +ve</item>
+        <item>A -ve</item>
+        <item>B +ve</item>
+        <item>B -ve</item>
+        <item>AB +ve</item>
+        <item>AB -ve</item>
+    </string-array>
+
+    <string-array name="urgency">
+        <item>Emergency</item>
+        <item>Immediate</item>
+        <item>Moderate</item>
+    </string-array>
 </resources>
