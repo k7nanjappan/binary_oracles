@@ -14,74 +14,75 @@
 {
 	position:absolute;
 	top:225px;
-	left:650px;
-	background-color:#dc4640;
-	color:#ffffff;
-	height:40px;
-	width:200px;
-	font-size:20px;
+	left:25px;
+	color:#7d7d7d;
+	font-size:40px;
 }
 #left
 {
 	position:absolute;
 	left:25px;
+	top:350;
 }
 #left_1
 {
 	position:absolute;
-	top:300px;
+	top:375px;
 	left:25px;
 }
 #right{
 	position:absolute;
 	right:585px;
+	top:350;
 
 }
 #right_1
 {
 	position:absolute;
-	top:300px;
+	top:375px;
 	right:25px;
 }
 #left_2
 {
 	position:absolute;
-	top:350px;
+	top:425px;
 	left:25px;
 }
 #left_3
 {
 	position:absolute;
-	top:375px;
+	top:450px;
 	left:25px;
 }
 #right_2
 {
 	position:absolute;
-	top:350px;;
+	top:425px;;
 	right:550px;
 }
 #right_3
 {
 	position:absolute;
-	top:375px;
+	top:450px;
 	right:25px;
 }
 #left_4
 {
 	position:absolute;
-	top:425px;
+	top:500px;
 	left:25px;
 }
 #left_5
 {
 	position:absolute;
-	top:450px;
+	top:525px;
 	left:25px;
 }
 #button
 {
 	position:absolute;
-	top:425px;
+	top:500px;
 	right:570px;
 }
+
+
