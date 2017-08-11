@@ -90,7 +90,12 @@ void main()
 		 cout<<"\n\t\t\t  Request Blood at Convenience";
 		 for(i=0;i<80;i++)
 		 cout<<"-";
+		 cout<<"\n\n Wrong Selection!";
+		 getch();
+		 goto req;
+		}
+		break;
 
-
+  case 2:
  getch();
 }

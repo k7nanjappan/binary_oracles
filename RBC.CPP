@@ -96,5 +96,10 @@ void main()
 		}
 		break;
 
+  case 2: don:
+	  clrscr();
+	  cout<<"\n";
+	  for(i=0;i<80;i++)
+	  cout<<"-";
  getch();
 }
