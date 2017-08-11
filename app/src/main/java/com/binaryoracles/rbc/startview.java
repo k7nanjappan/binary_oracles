@@ -1,10 +1,12 @@
 package com.binaryoracles.rbc;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class startview extends AppCompatActivity {
 
@@ -25,15 +27,15 @@ public class startview extends AppCompatActivity {
 
         });
 
-        Button request;
-        request.setOnClickListener(new View.OnClickListener() {
+        ImageButton button = (ImageButton) findViewById(R.id.request);
+        final Context context = this;
+        button.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(){
-                Intent myIntent = new Intent(this, requestpage.class);
-                        startActivity(Intent);
-            }
-        });
-
+                    public void onClick(View v){
+            Intent intent2 = new Intent(context, requestpage.class);
+            startActivity(intent2);
+        }
+    });
 
     }
 
