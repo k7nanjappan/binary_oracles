@@ -3,10 +3,11 @@
 #include<stdio.h>
 #include<dos.h>
 #include<process.h>
+#include<string.h>
 void main()
 {
- int i,sel[3],date;
- char *name,*add;
+ int i,sel[3],date,age,weight,type;
+ char *name,*add,*btype;
  main:
  clrscr();
  cout<<"\n";
@@ -87,7 +88,7 @@ void main()
 		 cout<<"\n";
 		 for(i=0;i<80;i++)
 		 cout<<"-";
-		 cout<<"\n\t\t\t  Request Blood at Convenience";
+		 cout<<"\n\t\t\t  Request Blood at Convenience\n\n";
 		 for(i=0;i<80;i++)
 		 cout<<"-";
 		 cout<<"\n\n Wrong Selection!";
@@ -96,6 +97,61 @@ void main()
 		}
 		break;
 
-  case 2:
+  case 2: don:
+	  clrscr();
+	  cout<<"\n";
+	  for(i=0;i<80;i++)
+	  cout<<"-";
+	  cout<<"\n\t\t\t  Request Blood at Convenience\n\n";
+	  for(i=0;i<80;i++)
+	  cout<<"-";
+	  cout<<"\n\n Become our Donar!\n";
+	  cout<<"\n Enter name: ";
+	  gets(name);
+	  cout<<"\n Enter locality: ";
+	  gets(add);
+	  cout<<"\n Enter Age: ";
+	  cin>>age;
+	  cout<<"\n Enter Weight: ";
+	  cin>>weight;
+	  type:
+	  cout<<"\n Blood Types \n";
+	  cout<<"\n 1. O+ve";
+	  cout<<"\n 2. O-ve";
+	  cout<<"\n 3. A+ve";
+	  cout<<"\n 4. A-ve";
+	  cout<<"\n 5. B+ve";
+	  cout<<"\n 6. B-ve";
+	  cout<<"\n 7. AB+ve";
+	  cout<<"\n 8. AB-ve";
+	  cin>>type;
+	  switch(type)
+	  {
+	   case 1: strcpy(btype,"O+ve");
+		   break;
+	   case 2: strcpy(btype,"O-ve");
+		   break;
+	   case 3: strcpy(btype,"A+ve");
+		   break;
+	   case 4: strcpy(btype,"A-ve");
+		   break;
+	   case 5: strcpy(btype,"B+ve");
+		   break;
+	   case 6: strcpy(btype,"B-ve");
+		   break;
+	   case 7: strcpy(btype,"AB+ve");
+		   break;
+	   case 8: strcpy(btype,"AB-ve");
+		   break;
+	   default: cout<<"\n Select correct type of Blood Group!";
+		    getch();
+		    goto type;
+		    break;
+	  };
+
+
+
+
+
  getch();
 }
