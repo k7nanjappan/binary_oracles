@@ -12,6 +12,23 @@
 }
 #req
 {
+	position:absolute;
+	top:225px;
+	left:650px;
 	background-color:#dc4640;
-	
+	color:#ffffff;
+	height:40px;
+	width:200px;
+	font-size:20px;
+}
+#width{
+	width:350px;
+	position:absolute;
+	left:650px;
+}
+#width1{
+	width:350px;
+	position:absolute;
+	left:650px;
+	top:350px;
 }
