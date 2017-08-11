@@ -1,0 +1,17 @@
+#header{
+	width:1520px;
+	height:195px;
+	background-color:#dc4640;
+}
+.header_image
+{
+	position:absolute;
+	left:325px;
+	width:850px;
+	height:195px;
+}
+#req
+{
+	background-color:#dc4640;
+	
+}
