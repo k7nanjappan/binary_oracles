@@ -8,7 +8,7 @@
 
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/request"
         android:layout_width="359dp"
         android:layout_height="380dp"
         app:srcCompat="@drawable/request"
@@ -31,7 +31,7 @@
         android:layout_marginTop="28dp"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="44dp"
         app:layout_constraintVertical_bias="0.0"
         android:layout_marginRight="16dp"
         android:layout_marginLeft="16dp" />
