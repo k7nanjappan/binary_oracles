@@ -12,14 +12,14 @@ if(isset($_POST['b1']))
 		fclose($file_handle);
 		return $line_of_text;
 	}
-		$csvFile='login.csv';
+		$csvFile='login1.csv';
 		$csv=getdata($csvFile);
 		$cuid=$_POST['cuid'];
 		$cpass=$_POST['cpass'];
 		$n=sizeof($csv);
 	for ( $x=0; $x <$n; $x++)
 	{
-		if(strcmp($csv[$x][0],$cuid)==0)
+		if(strcmp($csv[$x][5],$cuid)==0)
 			{
 				if(strcmp($csv[$x][6],$cpass)==0)
 				{

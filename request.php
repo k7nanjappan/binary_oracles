@@ -14,6 +14,6 @@
  fputcsv($file,explode(',',$ine));
  }
  fclose($file);
- echo "Message sent to Donors";
+ echo '<script>window.location="after_donor.html"</script>';
  }
  ?>

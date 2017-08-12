@@ -1,0 +1,19 @@
+#header
+{
+	width:1520px;
+	height:195px;
+	background-color:#dc4640
+}
+.header_image
+{
+	width:850px;
+	position:absolute;
+	height:195px;
+	left:325px;
+}
+#text{
+	color:#7d7d7d;
+}
+a{
+	text-decoration:none;
+}
