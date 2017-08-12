@@ -21,7 +21,7 @@ public class startview extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(startview.this, requestpage.class);
+                Intent intent = new Intent(startview.this, donor.class);
                 startActivity(intent);
             }
 

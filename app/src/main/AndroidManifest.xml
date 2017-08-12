@@ -19,7 +19,8 @@
         <activity android:name=".requestpage" />
         <activity android:name=".eminfo" />
         <activity android:name=".Reqeme" />
-        <activity android:name=".Reqmod"></activity>
+        <activity android:name=".Reqmod" />
+        <activity android:name=".donor"></activity>
     </application>
 
 </manifest>
