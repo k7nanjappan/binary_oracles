@@ -1,0 +1,24 @@
+#header
+{
+	height:195px;
+	width:1520px;
+	background-color:#dc4640;
+}
+.header_image{
+	position:absolute;
+	width:850px;
+	height:195px;
+	left:325px;
+	
+}
+#no_queries{
+	position:absolute;
+	top:300px;
+	left:300px;
+	font-size:50px;
+	background-color:black;
+	color:white;
+}
+#no_queries:hover{
+	font-size:60px;
+}
