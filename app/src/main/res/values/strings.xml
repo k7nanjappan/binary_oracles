@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Request Blood at Convenience</string>
+    <string name="app_name">RBC</string>
     <string-array name="bgroup">
         <item>O +ve</item>
         <item>O -ve</item>
