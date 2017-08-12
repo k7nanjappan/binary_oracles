@@ -52,12 +52,14 @@ pre{
 #text{
 	position:absolute;
 	top:190px;
-	color:#dc4640;
 	left:170px;
 	font-size:16px;
 }
 a
 {
 text-decoration:none;
-color:white;
+color:#dc4640;
+}
+.bdonor{
+	color:dc4640;
 }
