@@ -16,7 +16,7 @@ if(isset($_POST['b3']))
 		fputcsv($file,explode(',',$line));
 	}
 	fclose($file);
-	function getdata($csvFile)
+/*	function getdata($csvFile)
 	{
 		$file_handle=fopen($csvFile,"r");
 		while(!feof($file_handle))
@@ -30,8 +30,8 @@ if(isset($_POST['b3']))
 		$csv=getdata($csvFile);
 		//echo '<pre>';
 		 //echo $csv[1][3];
-		 
-		 //echo '</pre>';
+		  //echo '</pre>';
+		  //echo '<script>window.location="RBC.html"</script>';
 
 if(isset($_POST['b1']))
 {
@@ -40,18 +40,17 @@ if(isset($_POST['b1']))
 	$n=sizeof($csv);
 	for($x=0;$x<n;$x++)
 	{
-		$a=$csv[x][0];
-		$b=$csv[x][6];
 		
-			if(strcmp($a,uid)==0)
+			if(strcmp($csv[x][0],$cuid)==0)
 			{
 				
-				if(strcmp($b,cpass)==0)
+				if(strcmp($csv[x][6],$cpass)==0)
 				{
-					echo "done";
+					//echo "done";
 					//$loaction=donor.html;
 					//header("Location:$location");
 					//exit();
+					echo '<script>window.location="RBC.html"</script>';
 					break;
 				}
 				else
@@ -64,7 +63,9 @@ if(isset($_POST['b1']))
 				echo "invalid username";
 			}
 		
-	}	
+		
+	}
 }
+*/
 }
 ?>

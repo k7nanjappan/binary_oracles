@@ -14,23 +14,14 @@ if(isset($_POST['b1']))
 	}
 		$csvFile='login.csv';
 		$csv=getdata($csvFile);
-		//echo '<pre>';
-		 echo $csv[0][0];
-		 
-		 //echo '</pre>';
 		$cuid=$_POST['cuid'];
-		//echo $cuid;
 		$cpass=$_POST['cpass'];
-		//echo $cpass;
 		$n=sizeof($csv);
-		//echo strcmp(csv[0][0],cuid)
 	for ( $x=0; $x <$n; $x++)
 	{
-		
-			if(strcmp($csv[0][0],$cuid)==0)
+		if(strcmp($csv[$x][0],$cuid)==0)
 			{
-				
-				if(strcmp($csv[0][6],$cpass)==0)
+				if(strcmp($csv[$x][6],$cpass)==0)
 				{
 					//echo "done";
 					//$loaction=donor.html;
