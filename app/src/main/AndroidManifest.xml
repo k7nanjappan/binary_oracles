@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".requestpage" />
         <activity android:name=".eminfo" />
-        <activity android:name=".Reqeme"></activity>
+        <activity android:name=".Reqeme" />
+        <activity android:name=".Reqmod"></activity>
     </application>
 
 </manifest>

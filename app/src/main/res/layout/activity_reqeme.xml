@@ -50,7 +50,7 @@
         tools:layout_editor_absoluteX="31dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/sub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
@@ -65,5 +65,5 @@
         android:layout_marginLeft="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.954"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.892" />
 </android.support.constraint.ConstraintLayout>

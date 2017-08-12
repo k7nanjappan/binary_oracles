@@ -54,7 +54,6 @@ public class requestpage extends AppCompatActivity implements AdapterView.OnItem
         String E = "Emergency";
         String I = "Immediate";
         String M = "Moderate";
-        //Toast.makeText(parent.getContext()," " +urgency, Toast.LENGTH_LONG).show();
         if (urgency.equals(E)||urgency.equals(I))
 
         {
@@ -74,7 +73,7 @@ public class requestpage extends AppCompatActivity implements AdapterView.OnItem
             mod.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(requestpage.this, startview.class);
+                    Intent intent = new Intent(requestpage.this, Reqmod.class);
                     startActivity(intent);
                 }
 
