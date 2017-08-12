@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.binaryoracles.rbc.credits">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="318dp"
+        android:layout_height="373dp"
+        android:textSize="20dp"
+        android:text="Members: \n\n 1. Jithin Kumar S\n     +91 99455 10798\n      jithin@coolkumar@gmail.com\n\n 2. Kesavan Nanjappan:\n     +91 80955 07904\n      k7nanjappan@gmail.com\n\n 3. B Rutvik: \n     +91 82774 27140\n      rutvikbrk@gmail.com "
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="12dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="308dp"
+        android:layout_height="74dp"
+        android:textSize="25dp"
+        android:text="Created by\nBinary Oracles"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

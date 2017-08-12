@@ -16,11 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".requestpage"/>
+        <activity android:name=".requestpage" />
         <activity android:name=".eminfo" />
         <activity android:name=".Reqeme" />
         <activity android:name=".Reqmod" />
-        <activity android:name=".donor"></activity>
+        <activity android:name=".donor" />
+        <activity android:name=".credits"></activity>
     </application>
 
 </manifest>

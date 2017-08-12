@@ -36,6 +36,16 @@ public class startview extends AppCompatActivity {
             startActivity(intent2);
         }
     });
+        ImageButton info = (ImageButton) findViewById(R.id.info);
+        final Context con = this;
+        info.setOnClickListener(new View.OnClickListener(){
+            @Override
+              public void onClick(View v){
+                Intent int2 = new Intent(con, credits.class);
+                startActivity(int2);
+
+            }
+        });
 
     }
 
