@@ -81,18 +81,36 @@
 #button
 {
 	position:absolute;
-	top:500px;
+	top:575px;
 	right:570px;
+}
+#right_5
+{
+	position:absolute;
+	top:525px;
+	right:25px;
 }
 #right_4
 {
 	position:absolute;
 	top:500px;
-	right:25px;
+	right:580px;
 }
 .b
 {
 	background-color:#dc4640;
 	color:white;
+}
+#left_6
+{
+	position:absolute;
+	top:575px;
+	left:25px;
+}
+#left_7
+{
+	position:absolute;
+	top:600px;
+	left:25px;
 }
 
