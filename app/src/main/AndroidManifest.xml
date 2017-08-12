@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".requestpage" />
-        <activity android:name=".eminfo"></activity>
+        <activity android:name=".eminfo" />
+        <activity android:name=".Reqeme"></activity>
     </application>
 
 </manifest>
